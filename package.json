@@ -1,0 +1,20 @@
+{
+  "name": "greet",
+  "version": "0.0.1",
+  "description": "A simple and naive greeter",
+  "main": "index.js",
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "lijinma",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "minimist": "0.0.8"
+  }
+}
